@@ -1,0 +1,28 @@
+.hero-section {
+  > .headers {
+    > .main-header {
+      color: #fff;
+      font-size: 70px;
+      font-style: italic;
+      font-weight: 900;
+      @media screen and (max-width: 992px) {
+        font-size: 52px;
+      }
+      @media screen and (max-width: 552px) {
+        font-size: 39px;
+      }
+    }
+    > p {
+      color: #fff;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 400;
+      @media screen and (max-width: 992px) {
+        font-size: 19px;
+      }
+      @media screen and (max-width: 552px) {
+        font-size: 14px;
+      }
+    }
+  }
+}
